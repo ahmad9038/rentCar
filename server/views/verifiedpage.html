@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+      font-family: sans-serif;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      border: 1px solid #ccc;
+      width: 100%;
+      max-width: 450px;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+    .heading {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      line-height: 0;
+    }
+
+    .success-message {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 0.25rem;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #333;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">Successful</p>
+      <p class="success-message">You email is sucessfully verified</p>
+
+      <div class="button-container">
+        <a
+          style=" text-decoration: none; color: white; "
+          href="http://localhost:3000/login">
+          <button class="button">Login</button></a>
+      </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+
+  </body>
+
+</html>
