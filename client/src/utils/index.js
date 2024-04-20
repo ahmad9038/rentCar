@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //for localhost testing ***
-const API_URL = "";
+const API_URL = "https://rent-a-car-wine.vercel.app";
 
 export const API = axios.create({
   baseURL: API_URL,
