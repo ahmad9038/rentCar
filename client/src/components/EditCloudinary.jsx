@@ -29,7 +29,7 @@ const EditCloudinary = ({ images, setImages, setErrorMessage, carId }) => {
 
     // Call your server to generate a signature
     if (imageId) {
-      fetch("http://localhost:5000/car/generate-delete-signature", {
+      fetch("https://rent-a-car-wine.vercel.app/car/generate-delete-signature", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
