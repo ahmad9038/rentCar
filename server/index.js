@@ -4,6 +4,7 @@ import dbConnection from "./dbConnection.js";
 import dotenv from "dotenv";
 import router from "./routes/index.js";
 import path from "path";
+import { dirname } from "path";
 
 dotenv.config();
 const app = express();
