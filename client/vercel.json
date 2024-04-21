@@ -9,6 +9,13 @@
     {
       "src":"/login",
       "dest":"/"
-    }
+    },
+     {
+      "src":"/bookings",
+      "dest":"/"
+    },{
+      "src":"/cars",
+      "dest":"/"
+    },
   ]
 }
