@@ -13,13 +13,7 @@ const viewsPath = path.join(process.cwd(), "views");
 app.use(express.static(viewsPath));
 app.use(cors());
 app.use(express.json());
-app.use(
-  cors({
-    origin: ["https://rent-a-car-frontend-fawn.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true,
-  })
-);
+
 
 dbConnection();
 
