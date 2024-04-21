@@ -7,7 +7,7 @@
     {
       "src":"/(.*)",
       "dest":"/"
-    },{ "src": "/users/verified", "dest": "/views/verifiedpage.html" }
+    }
 
   ]
 }
