@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "builds":[
-    {"src": "*.js", "use": "@vercel/node"}
-  ],
-  "routes": [
+  "rewrites": [
     {
-      "src":"/(.*)",
-      "dest":"/"
+      "source": "/users/verified",
+      "destination": "/path/to/verifiedpage.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
-
   ]
 }
