@@ -8,9 +8,6 @@
       "src":"/(.*)",
       "dest":"/"
     },
-    {
-      "src":"/login",
-      "dest":"/"
-    }
+    { "src": "/verified", "dest": "/verifiedpage.html" },
   ]
 }
