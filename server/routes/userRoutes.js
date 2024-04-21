@@ -10,6 +10,7 @@ import {
 import path from "path";
 const router = express.Router();
 const __dirname = path.resolve(path.dirname(""));
+import ejs from 'ejs';
 
 router.post("/register", register);
 router.post("/login", login);
