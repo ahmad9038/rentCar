@@ -8,7 +8,7 @@
       "src":"/(.*)",
       "dest":"/"
     },
-     { "source": "/users/verified", "destination": "/views/verifiedpage.html" }
+   
 
   ]
 }
