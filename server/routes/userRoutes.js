@@ -16,7 +16,16 @@ router.post("/login", login);
 router.get("/verify/:userId/:token", verifyEmail);
 
 router.get("/verified", (req, res) => {
-  res.sendFile(path.join(__dirname, "../views/verifiedpage.html"));
+  const filePath = path.join(__dirname, "./server/../views/verifiedpage.html");
+  // Render the HTML using ejs
+  ejs.renderFile(filePath, {}, (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send('Error rendering verification page');
+    } else {
+      res.send(data);
+    }
+  });
 });
 
 //password reset
