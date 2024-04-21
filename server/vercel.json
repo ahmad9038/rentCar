@@ -10,7 +10,7 @@
     },
     {
       "src":"/login",
-      "dest":"/login"
+      "dest":"/"
     }
   ]
 }
