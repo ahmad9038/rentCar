@@ -1,15 +1,16 @@
 {
   "version": 2,
-
   "routes": [
-    {
-      "src":"/",
-      "dest":"/"
-    },
-    {
-      "src":"/login",
-      "dest":"/"
-    }
-   
+    { "src": "/", "dest": "/" },
+    { "src": "/listyourcar", "dest": "/" },
+    { "src": "/listNewCar", "dest": "/" },
+    { "src": "/bookings", "dest": "/" },
+    { "src": "/editCar/:carId", "dest": "/" },
+    { "src": "/bookingStats", "dest": "/" },
+    { "src": "/bookCar/:carId", "dest": "/" },
+    { "src": "/register", "dest": "/" },
+    { "src": "/login", "dest": "/" },
+    { "src": "/reset-password", "dest": "/" },
+    { "src": "/cars", "dest": "/" }
   ]
 }
