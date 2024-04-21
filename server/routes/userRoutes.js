@@ -17,7 +17,7 @@ router.post("/login", login);
 router.get("/verify/:userId/:token", verifyEmail);
 
 router.get("/verified", (req, res) => {
-  const filePath = path.join(__dirname, "./server/../views/verifiedpage.html");
+  const filePath = path.join(__dirname, "../views/verifiedpage.html");
   // Render the HTML using ejs
   ejs.renderFile(filePath, {}, (err, data) => {
     if (err) {
